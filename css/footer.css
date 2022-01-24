@@ -1,0 +1,28 @@
+.follow-us {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--primaryColor);
+}
+
+.follow-us p {
+    color: var(--titleColor);
+    text-align: center;
+	font-size: 1.7em;
+	margin-bottom: 20px;
+}
+
+.networks {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+}
+
+.networks i {
+    margin: auto 20px;
+    font-size: 2em;
+    color: var(--navbarColor);
+}

@@ -1,0 +1,25 @@
+:root {
+    --primaryColor: #f3d388;
+    --navbarColor: #a07221;
+    --secondColor: rgb(241, 171,68);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+body {
+    background: #f2f2f2;
+}

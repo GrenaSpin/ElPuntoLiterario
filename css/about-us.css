@@ -1,0 +1,120 @@
+.masthead{
+    background-color: var(--primaryColor);
+}
+
+.container-info { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-logo {
+    width: 100%;
+    margin-top: -20px;
+}
+
+.container-logo img {
+    width: 50%;
+    height: 300px;
+}
+
+.container-text {
+    margin-top: -50px;
+}
+
+.eslogan-text {
+    padding: 1em;
+}
+
+.quienes-somos {
+    padding: 0 50px 30px;
+}
+
+.container-aboutUs {
+    background: url(../img/about.jpg);
+    background-size: cover;
+    position: relative;
+    width: 70%;
+    height: 430px;
+    margin: auto;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-aboutUs {
+    width: 80%;
+    margin: auto;
+}
+
+.text-aboutUs h1 {
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 10px 0;
+    color: var(--networkColor);
+}
+
+.text-aboutUs h3{
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 10px 0;
+    margin: 25px 0;
+    color: var(--primaryColor);
+}
+
+.text-aboutUs p {
+    background-color: rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 1.3em;
+}
+
+.location {
+    width: 100%;
+    height: 680px;
+}
+
+.content-map {
+    width: 100%;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+#map {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+}
+
+@media (max-width: 415px) {
+
+    .container-logo {
+        width: 110%;
+        margin-top: -20px;
+    }
+
+    .container-aboutUs {
+        width: 100%;
+        height: 430px;
+    }
+
+    .text-aboutUs {
+        width: 100%;
+        margin: auto;
+    }
+
+    .text-aboutUs h1 {
+        font-size: 1em;
+    }
+
+    .text-aboutUs h3 {
+        font-size: 1em;
+    }
+
+    .text-aboutUs p {
+        font-size: 1em;
+        margin-top: 0;
+    } 
+}
+

@@ -1,0 +1,16 @@
+.container-book{
+	width: 70%;
+	margin: 20px auto;
+	padding: 50px;
+}
+
+.content-book{
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px 0;
+}
+
+.content-book img{
+	width: 70%;
+	height: 500px;
+}
