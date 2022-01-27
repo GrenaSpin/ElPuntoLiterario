@@ -82,7 +82,7 @@
     font-weight: 900;
 }
 
-@media (max-width: 700px){
+@media (max-width: 965px) {
 
 	.navbar-main ul.navbar-list{
 		display: block;
@@ -92,8 +92,8 @@
 		background: var(--navbarColor);
         width: 100vw;
 		height: 30vh;
-        margin-top: 49px;
-		transform: translateY(-110vh);
+        margin-top: 90px;
+    	transform: translateY(-110vh);
 		transition: transform .5s ease-in-out;
 		z-index: 50;
 	}
@@ -101,6 +101,10 @@
 	.navbar-main ul.navbar-list.show{
 		transform: translateY(0px);
 	}
+}
+
+
+@media (max-width: 700px){
 
 	.navbar-menu-left img {
 		margin: auto 10px;

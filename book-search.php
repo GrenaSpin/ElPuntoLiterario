@@ -6,10 +6,11 @@
         <div class="title">
             <h4>Busquedas relacionadas</h4>
         </div>
-        <div class="products-center">
+        <div class="products-center-search">
             <?php include 'coding/search.php';?>
         </div>
     </div>
+    <h4 class="final-search">No hay mas busquedas</h4>
 </section>
 
-<?php include("includes/footer.php");?>
+<?php include("includes/footer.php");?> 

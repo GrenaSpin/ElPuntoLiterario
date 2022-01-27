@@ -7,20 +7,21 @@
     while ($row = $query->fetch_array()) { ?>
         <article class="book-list">
             <div class="info-container">
-                <div class="img-content">
-                    <a href="book.php?id=<?php echo $row['id'];?>">
-                        <img src="<?php echo $row['img_URL'];?>" alt="product" class="product-img-catalogo">
-                    </a>
+            <a href="book.php?id=<?php echo $row['id']?> ">
+                <div class="img-content-search">
+                        <img src="<?php echo $row['img_URL'];?>" alt="product" class="product-img-search">
                 </div> 
-                <div class="text-content">
+                <div class="text-content-search">
                     <span class="title"><?php echo $row['titulo'];?></span>
                     <span class="price">$<?php echo $row['precio'];?> MXN</span>
-                    <a href="book.php?id=<?php echo $row['id'];?>">
+                    
+                    <a href="https://wa.me/525521489950" target="_blank">
                         <button type="button" class="display-button">
-                            Ver libro
+                        Contacta al vendedor
                         </button>
                     </a>
                 </div>
+            </a>
             </div>
         </article>      
 <?php    }
