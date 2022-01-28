@@ -116,13 +116,14 @@
 	}
 }
 
-@media (max-width: 415) {
+@media (max-width: 415px) {
 
 	.container-book{
 		width: 90%;
 	}
 
 	.content-book {
+		display: flex;
 		flex-direction: column;
 		padding: 20px 0;
 	}

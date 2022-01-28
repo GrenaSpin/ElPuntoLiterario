@@ -1,7 +1,6 @@
 .navbar-main {
 	height: 90px;
 	margin: 0;
-	margin-bottom: 30px;
     background-color: var(--navbarColor);
 }
 
