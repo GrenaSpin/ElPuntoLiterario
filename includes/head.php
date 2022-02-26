@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="./css/homepage.css">
 	<link rel="stylesheet" href="./css/about-us.css">
 	<link rel="stylesheet" href="./css/book.css">
+	<link rel="stylesheet" href="./css/insert.css">
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 	<title>El Punto Literario</title>
 </head>

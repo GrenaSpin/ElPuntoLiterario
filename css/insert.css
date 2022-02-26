@@ -1,0 +1,50 @@
+.container-insert {
+    width: 95%;
+    margin: auto;
+}
+
+.container-insert h2 {
+    text-align: center;
+}
+
+.insert-form{
+    width: 90%;
+    margin: auto;
+}
+
+.insert-form form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.insert-content-file {
+    display: flex;
+    flex-direction: column;
+}
+
+.insert-content {
+    padding: 10px 5px;
+    margin: 10px 15px;
+}
+
+.txt-insert {
+    width: 200px;
+    height: 25px;
+}
+
+.insert-content textarea {
+    resize: none; 
+    overflow: scroll
+}
+
+.input-btn {
+    background-color: var(--secondColor);
+    color: #f1f1f1;
+    padding: 8px 15px;
+    border-radius: 5%;
+    border: none;
+    font-weight: 500;
+    margin: 0 20px;
+}
+
+

@@ -1,4 +1,6 @@
 <?php 
+    #require 'vendor/autoload.php';
+    
     require 'vendor/autoload.php';
     
     use Cloudinary\Configuration\Configuration;
@@ -8,13 +10,13 @@
 
     Configuration::instance([
         'cloud' => [
-          'cloud_name' => $_ENV['CLOUD'], 
-          'api_key' => $_ENV['API_KEY'], 
-          'api_secret' => $_ENV['API_SECRET']],
+          'cloud_name' => ' ', 
+          'api_key' => ' ', 
+          'api_secret' => ' '],
         'url' => [
             'secure' => true]]);
 
-    /*$image = (new UploadApi())->upload('./img/logo_png.png');
+    /*$image = (new UploadApi())->upload('../img/about.jpg');
 
     echo "Url =".$image['secure_url'];
     echo "Public Id =".$image['public_id'];*/
