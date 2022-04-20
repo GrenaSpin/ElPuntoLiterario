@@ -48,6 +48,7 @@
                 <div class="insert-content">
                     <input type="reset"  class="input-btn">
                     <input type="submit" name="insert-book" value="Ingresar libro" class="input-btn">
+                    <a href="edit-books.php" class="input-btn">Buscar libro</a>
                 </div>
             </form>
         </div>

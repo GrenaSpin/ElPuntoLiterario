@@ -9,10 +9,10 @@
 
 
 
-    $host = $_ENV['HOST_DB'];
+    $host = $_ENV["HOST_DB"];
     $user =  'root';
     $password = '';
-    $database = $_ENV['DATABASE'];
+    $database = $_ENV["DATABASE"];
 
     $conexion = mysqli_connect(
         $host,
